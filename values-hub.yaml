@@ -82,7 +82,7 @@ clusterGroup:
       - name: clusterGroup.isHubCluster
         value: false
 
-    exampleRegion:
+    example2Region:
       name: group-two
       acmlabels:
       - name: clusterGroup
