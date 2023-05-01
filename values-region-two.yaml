@@ -1,0 +1,22 @@
+  namespaces:
+    - config-demo
+
+  projects:
+    - config-demo
+
+  applications:
+    config-demo:
+      name: config-demo
+      namespace: config-demo
+      project: config-demo
+      path: charts/all/config-demo
+
+  #Subscriptions can be added too - multicloud-gitops at present does not require subscriptions on its managed clusters
+  #subscriptions:
+  #  example-subscription:
+  #    name: example-operator
+  #    namespace: example-namespace
+  #    channel: example-channel
+  #    csv: example-operator.v1.0.0
+
+  subscriptions:
